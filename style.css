@@ -7,6 +7,7 @@
 
 * {
   font-family: inter;
+  color: #fff;
   margin: 0%;
   padding: 0%;
 }
@@ -22,6 +23,16 @@ a {
   text-decoration: none;
   color: #fff;
 }
+p,
+h4 {
+  font-weight: 200;
+  color: var(--lightgray);
+}
+h1 {
+  font-weight: 800px;
+  font-size: 250%;
+}
+
 .btn {
   padding: 16px 40px;
   background-color: var(--orange);
@@ -29,13 +40,17 @@ a {
   border: none;
   border-radius: 24px;
 }
+.section-header {
+  text-align: center;
+  margin: 5%;
+}
 /* nav  */
 .nav {
   display: flex;
   justify-content: space-between;
   padding: 2% 5%;
 }
-.nav h1 {
+.nav h1 i {
   font-weight: 800;
   color: var(--orange);
 }
@@ -132,4 +147,18 @@ header {
   width: 50px;
   border-radius: 50%;
   display: flex;
+}
+/* habit changes  */
+.habit-container img {
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+}
+.habit-container {
+  text-align: center;
+  width: 300px;
+}
+.habit-parent-container {
+  display: flex;
+  gap: 5%;
+  margin: 0% 10%;
 }
