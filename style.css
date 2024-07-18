@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@font-face {
+  font-family: "Inter";
+  src: url(font/Inter-Regular.otf);
+}
+
+* {
+  font-family: inter;
+}
+/* nav  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+}
+.nav h1 {
+  font-weight: 800;
+}
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
