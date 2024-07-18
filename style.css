@@ -1,30 +1,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @font-face {
-  font-family: "Inter";
-  src: url(font/Inter-Regular.otf);
+  font-family: "miama";
+  src: url(font/Miama.ttf);
 }
 
 * {
   font-family: inter;
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --orange: rgb(230, 83, 60);
+  --lightgray: rgba(255, 255, 255, 0.5);
+}
+/* shared style  */
+body {
+  background: #000;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  padding: 16px 40px;
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
 }
 /* nav  */
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 2% 5%;
+  padding: 2% 5%;
 }
 .nav h1 {
   font-weight: 800;
+  color: var(--orange);
 }
 .nav ul {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 40px 10px 0px;
+  border-radius: 24px;
+  align-items: center;
 }
 .nav ul li {
   list-style: none;
+  padding: 1% 1%;
+}
+.nav ul li:first-child {
+  padding-left: 0px;
+}
+.nav ul li:last-child {
+  padding-right: 10%;
 }
 .nav ul li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+}
+.nav .nav-activated {
+  background-color: var(--orange);
+  border-radius: 24px;
+  padding: 15px 20px;
+}
+/* header  */
+header {
+  background: radial-gradient(rgb(46, 46, 46), rgba(119, 119, 119, 0));
+}
+.header-content {
+  display: flex;
+  gap: 10%;
+}
+.header-content-left {
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 13%;
+  margin-top: 10%;
+  color: #fff;
+}
+.header-content-left h1 {
+  font-size: 300%;
+  font-weight: 900;
+  margin: 2%;
+  line-height: 0.8;
+}
+.header-content-left h1 span {
+  font-family: miama;
+  font-size: 200%;
+  font-weight: 500;
+}
+.header-btn {
+  margin-top: 5%;
+}
+.btn1 {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.header-content-right {
+  position: static;
+}
+.header-img {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 5%;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+}
+.video-counts {
+  right: 2%;
+  top: 30%;
+}
+.tutorial-counts {
+  right: 60%;
+  top: 70%;
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  align-items: center;
+}
+.circle {
+  background-color: var(--orange);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
 }
