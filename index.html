@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Fitness</title>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <h1 class="logo-text"><i>InShape Fitness</i></h1>
+        <h1 class="logo-text"><i>Fitness</i></h1>
+        <button class="sidebar-bars">=</button>
         <ul class="nav-ul">
           <li><a href="" class="nav-activated">Home</a></li>
           <li><a href="">service</a></li>
@@ -62,22 +63,33 @@
           <div class="habit-container">
             <img src="images/image 2.png" alt="" />
             <h3>Movement</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+            <p>
+              Get active with our tailored exercise programs. Stay motivated
+              with community support.
+            </p>
           </div>
           <div class="habit-container">
             <img src="images/image 3.png" alt="" />
             <h3>Time</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+            <p>
+              Save time with efficient workouts. Fit exercise into any schedule.
+            </p>
           </div>
           <div class="habit-container">
             <img src="images/image 4.png" alt="" />
             <h3>Practice</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+            <p>
+              Enhance your skills with regular practice. Small steps lead to big
+              progress.
+            </p>
           </div>
           <div class="habit-container">
             <img src="images/image 5.png" alt="" />
             <h3>Weight loose</h3>
-            <p>We believe fitness should be accessible to everyone</p>
+            <p>
+              Reach your weight loss goals with our tailored plans and expert
+              guidance.
+            </p>
           </div>
         </div>
       </section>
@@ -86,15 +98,231 @@
           <div class="container-left-content">
             <h1>Run an extra mile easily.</h1>
             <p>
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym. With hundreds of
-              professional workouts.
+              Discover tips and techniques to increase your running endurance
+              effortlessly. Whether you're a beginner or seasoned runner, our
+              expert advice and training plans will help you reach new distances
+              with confidence.
             </p>
             <button class="btn">Join Now</button>
           </div>
           <div class="container-right-img"></div>
         </div>
       </section>
+      <section>
+        <div class="bmi-top">
+          <h1>BMI Calculator</h1>
+          <p>
+            Calculate your Body Mass Index (BMI) easily with our simple tool.
+            Understand your health status and track your progress towards your
+            fitness goals effectively.
+          </p>
+        </div>
+      </section>
+      <section id="bmi">
+        <div class="bmi-main" style="padding: 1%">
+          <div class="bmi-table">
+            <h1>BMI Calculator chart</h1>
+            <table>
+              <th>BMI</th>
+              <th>Weight Status</th>
+              <tr>
+                <td>Bellow 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5 to 24.9</td>
+                <td>healthy</td>
+              </tr>
+              <tr>
+                <td>25 to 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30 or more</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bmi-calculator">
+            <div class="bmi-calculator-header">
+              <h1>Calculate your BMI</h1>
+              <p>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+            </div>
+            <div class="inline-form">
+              <input type="text" placeholder="Height/cm" />
+              <input type="text" placeholder="weight/Kg" />
+            </div>
+            <div class="inline-form">
+              <input type="text" placeholder="Age" />
+              <select name="Sex" id="" class="inline-select">
+                <option value="0">Sex</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+              </select>
+            </div>
+            <select name="Activity" id="" class="single-select">
+              <option value="0">Activity</option>
+              <option value="1">about 1 hours of activity</option>
+              <option value="2">about 2 hours of activity</option>
+              <option value="3">about 3 hours of activity</option>
+              <option value="4">about 4 hours of activity</option>
+              <option value="5">about 5 hours of activity</option>
+              <option value="6">less than 30 minutes</option>
+            </select>
+
+            <button class="btn bmi-btn" type="submit">Calculate</button>
+          </div>
+        </div>
+      </section>
+      <section id="challange Pricing">
+        <div class="section-header">
+          <h1>Pricing</h1>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            <br />regardless of income or access to a gym. With hundreds of
+            <br />professional workouts.
+          </p>
+        </div>
+        <div class="pricing-parent-container">
+          <div class="pricing-container">
+            <ul>
+              <div class="name-price">
+                <h2>Starter-</h2>
+                <small>$10/year </small>
+              </div>
+              <li>Daily consultation ❌</li>
+              <li>Anytime Routine change ❌</li>
+              <li>Free Workout Routine✔</li>
+              <li>twice a week live class ✔</li>
+              <button class="btn">buy plan</button>
+            </ul>
+          </div>
+          <div class="pricing-container">
+            <ul>
+              <div class="name-price">
+                <h2>Basic-</h2>
+                <small>$17/year </small>
+              </div>
+              <li>Daily consultation❌</li>
+              <li>Anytime Routine change ✔</li>
+              <li>Free workout Routine ✔</li>
+              <li>twice a week live class ✔</li>
+              <button class="btn">buy plan</button>
+            </ul>
+          </div>
+          <div class="pricing-container">
+            <ul>
+              <div class="name-price">
+                <h2>Premium-</h2>
+                <small>$20/year </small>
+              </div>
+              <li>Daily consultation ✔</li>
+              <li>Anytime Routine Change ✔</li>
+              <li>Free workout Routine ✔</li>
+              <li>twice a week live class ✔</li>
+              <button class="btn">buy plan</button>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="section-header">
+          <h1>Meet Our Team</h1>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym
+          </p>
+        </div>
+        <div class="parent-container parent-container-img">
+          <div class="first-part-img-container">
+            <div class="img-container img-container-1">
+              <div class="img-container-text">
+                <h3>Jerome Bell</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+            <div class="img-container img-container-2">
+              <div class="img-container-text">
+                <h3>Cameron Williamson</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+            <div class="img-container img-container-3">
+              <div class="img-container-text">
+                <h3>Darrel Steward</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+          </div>
+          <div class="second-part-img-container">
+            <div class="img-container img-container-4">
+              <div class="img-container-text">
+                <h3>Dianne Russel</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+            <div class="img-container img-container-5">
+              <div class="img-container-text">
+                <h3>Cody Fisher</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+            <div class="img-container img-container-6">
+              <div class="img-container-text">
+                <h3>Theresa Webb</h3>
+                <p class="img-p">Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h1 class="logo-text"><i>Fitness</i></h1>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            <br />regardless of income or access to a gym. With hundreds of
+            <br />professional workouts.
+          </p>
+          <p style="padding-top: 5%">
+            <strong>Location:</strong>
+            <br />
+            123, some street, Khulshi Lake, Ctg, BD
+            <br />
+            <strong>Phone: </strong> +1 (23) 456 789 <br />
+            <strong> Email:</strong> Example@email.com
+          </p>
+        </div>
+        <div class="footer-uls">
+          <ul class="footer-ul">
+            <h2>Get started</h2>
+            <li><a href="">Fitness</a></li>
+            <li><a href="">Platform</a></li>
+            <li><a href="">Workout Library</a></li>
+            <li><a href="">App Design</a></li>
+          </ul>
+          <ul class="footer-ul">
+            <h2>Quick Links</h2>
+            <li><a href="">Home</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Contact Us </a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <hr />
+        <p class="ftr-copy-p">
+          &copy; All right reserved,
+          <br />
+          Tahmid Jihan, InShape Fitness
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
