@@ -487,10 +487,9 @@ hr {
     display: flex;
     flex-direction: row;
   }
-  */
   /* pricing  */
   .pricing-parent-container {
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: center;
     align-items: center;
   }
