@@ -459,7 +459,6 @@ hr {
     width: 250px;
     height: 300px;
     margin-top: 5%;
-    padding-top: 5ems;
     background-position: -800px -190px;
   }
 }
@@ -488,6 +487,7 @@ hr {
     display: flex;
     flex-direction: row;
   }
+  */
   /* pricing  */
   .pricing-parent-container {
     flex-direction: column;
